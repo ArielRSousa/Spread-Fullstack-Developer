@@ -1,0 +1,119 @@
+
+# Comandos Principais do Git
+
+Este documento oferece uma visão geral dos comandos essenciais do Git, facilitando a gestão e versionamento do seu código de maneira eficaz. Cada comando inclui uma breve descrição para melhor compreensão.
+
+## 1. Configuração Inicial
+Antes de começar a usar o Git, configure suas informações de usuário:
+```
+git config --global user.name "Seu Nome"
+git config --global user.email "seuemail@exemplo.com"
+```
+
+## 2. Inicializar um Repositório
+Para começar a versionar um projeto, inicialize um novo repositório Git:
+```
+git init
+```
+
+## 3. Clonar um Repositório
+Para copiar um repositório remoto para o seu ambiente local:
+```
+git clone https://github.com/usuario/repo.git
+```
+
+## 4. Verificar o Status
+Para verificar o status atual do seu repositório e ver quais arquivos foram modificados:
+```
+git status
+```
+
+## 5. Adicionar Arquivos ao Índice
+Para adicionar arquivos ao índice (staging area):
+```
+git add arquivo.txt
+# Para adicionar todos os arquivos modificados
+git add .
+```
+
+## 6. Commitar Alterações
+Para salvar as alterações adicionadas ao índice:
+```
+git commit -m "Mensagem do commit"
+```
+
+## 7. Verificar Histórico de Commits
+Para visualizar o histórico de commits:
+```
+git log
+```
+
+## 8. Desfazendo Alterações
+Para remover um arquivo do índice (mas não deletá-lo):
+```
+git reset arquivo.txt
+```
+Para desfazer modificações em um arquivo (revertendo-o ao último commit):
+```
+git checkout -- arquivo.txt
+```
+
+## 9. Trabalhando com Branches
+Para criar uma nova branch:
+```
+git branch nome-da-branch
+```
+Para mudar para uma branch existente:
+```
+git checkout nome-da-branch
+```
+Para criar e mudar para uma nova branch simultaneamente:
+```
+git checkout -b nome-da-branch
+```
+
+## 10. Mesclando Branches
+Para mesclar uma branch na branch atual:
+```
+git merge nome-da-branch
+```
+
+## 11. Excluir uma Branch
+Para deletar uma branch local:
+```
+git branch -d nome-da-branch
+```
+
+## 12. Atualizar o Repositório Local
+Para buscar as alterações do repositório remoto sem mesclar:
+```
+git fetch
+```
+Para buscar e mesclar as alterações do repositório remoto:
+```
+git pull
+```
+
+## 13. Enviar Alterações para o Repositório Remoto
+Para enviar suas alterações para o repositório remoto:
+```
+git push origin nome-da-branch
+```
+
+## 14. Remover Arquivo do Controle de Versão
+Para remover um arquivo do repositório Git:
+```
+git rm arquivo.txt
+```
+
+## 15. Adicionar Tags
+Para marcar um ponto específico na história do projeto:
+```
+git tag -a v1.0 -m "Versão 1.0"
+```
+
+## 16. Mostrar Diferenças
+Para ver as diferenças entre arquivos modificados e a última versão commitada:
+```
+git diff
+```

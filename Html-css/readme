@@ -1,0 +1,48 @@
+# Guia de Tags HTML5
+
+## Estruturais
+- **`<html>`**: Define a raiz de um documento HTML.
+- **`<head>`**: Contém metadados/informações para o documento.
+- **`<title>`**: Especifica um título para o documento.
+- **`<body>`**: Define o corpo do documento.
+
+## Conteúdo de Texto
+- **`<h1>` a `<h6>`**: Define cabeçalhos de seis níveis.
+- **`<p>`**: Define um parágrafo.
+- **`<br>`**: Insere uma quebra de linha.
+- **`<hr>`**: Insere uma mudança temática na forma de uma linha horizontal.
+
+## Links e Recursos
+- **`<a>`**: Define um hiperlink.
+- **`<img>`**: Incorpora uma imagem.
+- **`<video>`**: Incorpora conteúdo de vídeo.
+- **`<audio>`**: Incorpora conteúdo de áudio.
+- **`<link>`**: Define o relacionamento entre um documento e um recurso externo (usualmente para folhas de estilo).
+
+## Listas
+- **`<ul>`**: Define uma lista não ordenada.
+- **`<ol>`**: Define uma lista ordenada.
+- **`<li>`**: Define um item de lista.
+
+## Estrutura de Documento
+- **`<header>`**: Define um cabeçalho para um documento ou seção.
+- **`<footer>`**: Define um rodapé para um documento ou seção.
+- **`<section>`**: Define uma seção em um documento.
+- **`<article>`**: Define um conteúdo independente ou seção de conteúdo.
+- **`<aside>`**: Define um conteúdo à parte do conteúdo que envolve (como barras laterais).
+
+## Formulários e Entradas
+- **`<form>`**: Define um formulário HTML para entrada do usuário.
+- **`<input>`**: Define um campo de entrada.
+- **`<textarea>`**: Define um campo de entrada de texto multilinha.
+- **`<button>`**: Define um botão clicável.
+- **`<select>`**: Define uma lista suspensa.
+- **`<option>`**: Define as opções dentro de um `<select>`.
+
+## Semânticas de Texto
+- **`<strong>`**: Define texto importante.
+- **`<em>`**: Define texto enfatizado.
+- **`<b>`**: Define texto em negrito sem importância extra.
+- **`<i>`**: Define texto em itálico sem ênfase adicional.
+- **`<mark>`**: Define texto marcado ou destacado.
+- **`<small>`**: Define texto pequeno.
